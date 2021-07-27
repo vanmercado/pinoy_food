@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Noto+Sans:ital,wght@0,700;1,400&family=Pacifico&family=Permanent+Marker&display=swap');
+
+/* font-family: 'Kalam', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive; */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.banner {
+	background: linear-gradient(rgba(0, 0, 0, 0.598), rgba(0, 0, 0, 0.183)),
+		url('./photos/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 75vh;
+	font-family: Verdana;
+}
+.banner div h2 {
+	color: rgba(255, 255, 255, 0.496);
+}
+
+.div-title {
+	height: 50vh;
+}
+.title {
+	font-family: 'Pacifico', cursive;
+	color: #f4a51d;
+	font-size: 110px;
+}
+
+.selection h2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	color: #f4a51d;
+	font-size: 47px;
+}
+.selection p {
+	font-family: 'Kalam', cursive;
+	font-size: 20px;
+}
+.div-image {
+	height: 380px;
+}
+.image {
+	padding: 5%;
+	width: 97%;
+	height: 100%;
+}
+.duhli {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+.food-name {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 60px;
+}
+.add-food-name {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.addhere {
+	font-family: 'Noto Sans', sans-serif;
+}
+.hr-line {
+	height: 1px;
+	background: rgba(0, 0, 0, 0.51);
+}
+.div-create h6 {
+	font-family: 'Kalam', cursive;
+	font-size: 45px;
+	padding: 40px 0;
+}
+
+.add-btn span {
+	cursor: pointer;
+}
+.add-btn {
+	font-family: 'Kalam', cursive;
+	position: relative;
+}
+
+.add-btn:before {
+	content: '';
+	display: block;
+	width: 41%;
+	height: 1px;
+	background: rgba(0, 0, 0, 0.734);
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+.add-btn:after {
+	content: '';
+	display: block;
+	width: 41%;
+	height: 1px;
+	background: rgba(0, 0, 0, 0.734);
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.div-table {
+	border: 0.5px dashed #f4a51d;
+}
+.add-food-img {
+	width: 80%;
+}
+.selected {
+	background-color: #f4a51db8;
+	color: white;
+	padding: 0;
+}
+.point:hover {
+	cursor: pointer;
+	background: rgba(144, 144, 144, 0.061);
+}
+footer {
+	height: 310px;
+	background-color: #f4a51d;
+}
+.div-footer h2 {
+	font-family: 'Permanent Marker', cursive;
+	color: #946514;
+	font-size: 55px;
+}
+.email {
+	color: #946514;
+}
+a {
+	color: #805710;
+	letter-spacing: 1px;
+}
+a:hover {
+	color: rgba(255, 255, 255, 0.741);
+}
